@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/output.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -15,14 +15,45 @@
   </head>
   <body>
     <header class="flex justify-between max-w-300 m-auto items-center p-[20px]">
-        <img src="src/Logo.png" alt="">
-        <nav class="hidden lg:flex items-center gap-[25px]">
-            <p class="text-[#2D2F30] text-[14px]">CONTACT</p>
-            <p class="text-[#2D2F30] text-[14px]">TESTIMONIALS</p>
-            <p class="text-[#2D2F30] text-[14px]">ABOUT</p>
-            <p class="text-[#2D2F30] text-[14px]">TERMS</p>
-        </nav>
-        <i class="fa-solid fa-magnifying-glass"></i>
+      <img src="src/Logo.png" alt="" />
+      <nav class="hidden lg:flex items-center gap-[25px]">
+        <p class="text-[#2D2F30] text-[14px]">CONTACT</p>
+        <p class="text-[#2D2F30] text-[14px]">TESTIMONIALS</p>
+        <p class="text-[#2D2F30] text-[14px]">ABOUT</p>
+        <p class="text-[#2D2F30] text-[14px]">TERMS</p>
+      </nav>
+      <i class="fa-solid fa-magnifying-glass"></i>
     </header>
+    <main>
+      <section class="flex lg:flex-row flex-col justify-between max-w-300 m-auto items-center p-[50px_20px]">
+        <aside class="flex flex-col items-start gap-[25px] relative w-[90%]">
+          <div class="flex items-center bg-[#E7F6FF] rounded-[50px] p-[5px_10px] gap-[10px]">
+            <p class="bg-[#094B72] p-[5px_30px] rounded-[20px] text-white">New</p>
+            <p class="text-[#094B72] text-[14px]">Stay connected to the upcoming & Recent jobs</p>
+          </div>
+          <h1 class="text-[50px] lg:text-[90px] font-bold text-[#094B72]">Your Solution Legal Consultacy</h1>
+          <p class="text-[#4F4F4F] text-[24px]  font-medium">We are here to help you take care of your legality with the best service especially for you.</p>
+          <button class="text-[white] space-[1px]  bg-[#094B72] text-[16px] font-bold p-[25px_35px] rounded-[10px]">GET STARTED</button>
+          <br>
+          <p class="text-[#848484] text-[22px]">Trusted by 10+ companies in indonesia</p>
+          <nav class="flex items-center gap-[60px]">
+            <img src="src/Airbnb.png" alt="">
+            <img src="src/Hubspot.png" alt="">
+          </nav>
+          <nav class="flex items-center gap-[25px] ">
+            <img src="src/Microsoft.png" alt="">
+            <img src="src/Google.png" class="self-end" alt="">
+          </nav>
+        </aside>
+        <aside class="hidden lg:flex">
+            <img src="src/tiara.png" class="relative" alt="">
+            <img src="src/Ellipse 2.png" class="lg:right-[100px] lg:top-[100px] hidden lg:inline absolute z-[-1]" alt="">
+            <nav class="flex flex-col gap-[10px] absolute text-center bottom-[0px] bg-white p-[15px_100px] rounded-[20px] items-center">
+                <h1 class="text-[#33475B] text-[24px] font-bold">Tiara Andini</h1>
+                <p class="text-[#87898C] text-[16px] font-medium">-Lawyer</p>
+            </nav>
+        </aside>
+      </section>
+    </main>
   </body>
 </html>
